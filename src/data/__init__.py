@@ -1,10 +1,10 @@
 __all__ = [
-    'data_path',
-    'data_paths',
+    'file_paths',
+    'load_params',
 ]
 
 from . import paths
-from .paths import (
-    data_path,
-    data_paths,
-)
+from . import load
+
+from .paths import file_paths
+from .load import load_params
